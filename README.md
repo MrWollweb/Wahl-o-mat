@@ -1,27 +1,32 @@
-# Analyse auf Basis des Wahl-O-Mat Datensatzes
+# Analysis Based on Wahl-O-Mat Dataset
 
-### Überblick
+## Context
 
-Dieses Repository enthält eine Analyse basierend auf dem Wahl-O-Mat Datensatz. Die Analyse umfasst verschiedene Techniken zur Datenverarbeitung und Visualisierung, einschließlich PCA (Principal Component Analysis) und Clustering-Methoden.
+This repository contains an analysis based on the Wahl-O-Mat dataset. Wahl-O-Mat is a German election tool that helps voters compare their political views with party positions. The analysis includes various data processing and visualization techniques, such as PCA (Principal Component Analysis) and clustering methods.
 
-### Abhängigkeiten
+## Dependencies
 
-Um das Skript auszuführen, stellen Sie sicher, dass Sie die folgenden Python-Pakete installiert haben:
+To run the script, make sure you have the following Python packages installed:
 
-``pip install pandas numpy plotly scikit-learn dash``
+```bash
+pip install pandas numpy plotly scikit-learn dash
+```
 
-### Datenquelle
+## Data Source
 
-Die Analyse basiert auf den Daten aus der Datei data/2025.csv. Diese wird im Skript eingelesen und verarbeitet.
+The analysis is based on data from the file `data/2025.csv`. This file is read and processed in the script.
 
-### Verwendung
+## Usage
 
-Führen Sie das Skript in einer Jupyter-Notebook-Umgebung aus oder starten Sie eine Dash-Webanwendung zur interaktiven Visualisierung der Ergebnisse.
+Run the script in a Jupyter Notebook environment or start a Dash web application for interactive visualization of the results.
 
-### Hauptfunktionen
+## Main Features
 
-Datenverarbeitung: Einlesen und Transformation der Daten in eine analysierbare Form.
+- **Data Processing**: Reading and transforming data into an analyzable format.
+- **PCA Analysis**: Dimensionality reduction for better visualization.
+- **Clustering**: Applying clustering methods to group parties based on their positions.
+- **Interactive Visualization**: Displaying results using Plotly and Dash.
 
-PCA-Analyse: Reduktion der Dimensionen zur besseren Visualisierung.
+## License
 
-Clustering: Anwendung von Clustering-Methoden zur Gruppierung der Parteien basierend auf ihren Positionen.
+This project is licensed under the MIT License. For more information, see the `LICENSE` file.
